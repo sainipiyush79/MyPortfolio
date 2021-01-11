@@ -1,0 +1,9 @@
+.custom-img {
+  height: 100vh;
+  object-fit: cover;
+}
+ 
+.d-block {
+  filter: blur(8px);
+  -webkit-filter: blur(4px);
+}
