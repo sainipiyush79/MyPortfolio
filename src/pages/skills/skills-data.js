@@ -23,9 +23,20 @@ import L_JAVASCRIPT from "../../assets/img/skills/javascript.svg";
 import L_TYPESCRIPT from "../../assets/img/skills/typescript.svg";
 import L_GOLANG from "../../assets/img/skills/go-6.svg";
 import L_PYTHON from "../../assets/img/skills/python.svg";
+import L_JAVA from "../../assets/img/skills/java.svg";
+import L_R from "../../assets/img/skills/r.svg";
+import L_C from "../../assets/img/skills/c1.svg";
+import L_CC from "../../assets/img/skills/c2.svg";
+
 
 export const skills = {
   frontend: [
+    {
+      link: "https://www.javascript.com/",
+      imgAltText: "JavaScript",
+      imgSrc: L_JAVASCRIPT,
+      skillName: "JavaScript",
+    },
     {
       link: "https://en.wikipedia.org/wiki/HTML5",
       imgAltText: "HTML 5",
@@ -38,18 +49,8 @@ export const skills = {
       imgSrc: L_CSS3,
       skillName: "CSS3",
     },
-    {
-      link: "https://www.javascript.com/",
-      imgAltText: "JavaScript",
-      imgSrc: L_JAVASCRIPT,
-      skillName: "JavaScript",
-    },
-    {
-      link: "https://sass-lang.com/",
-      imgAltText: "Sass",
-      imgSrc: L_SASS,
-      skillName: "Sass",
-    },
+
+
     {
       link: "https://getbootstrap.com/",
       imgAltText: "Bootstrap",
@@ -62,24 +63,14 @@ export const skills = {
       imgSrc: L_REACT,
       skillName: "React JS",
     },
-    {
-      link: "https://redux.js.org/",
-      imgAltText: "Redux",
-      imgSrc: L_REDUX,
-      skillName: "Redux",
-    },
+
     {
       link: "https://reacttraining.com/react-router/",
       imgAltText: "React Router",
       imgSrc: L_REACT_ROUTER,
       skillName: "React Router",
     },
-    {
-      link: "https://material-ui.com/",
-      imgAltText: "Material-UI",
-      imgSrc: L_MATERIALUI,
-      skillName: "Material-UI",
-    },
+
     {
       link: "https://react-bootstrap.github.io/",
       imgAltText: "React Bootstrap",
@@ -143,6 +134,12 @@ export const skills = {
   ],
   programmingLanguages: [
     {
+      link: "https://www.java.com/en/",
+      imgAltText: "Java",
+      imgSrc: L_JAVA,
+      skillName: "JAVA",
+    },
+    {
       link: "https://www.javascript.com/",
       imgAltText: "JavaScript",
       imgSrc: L_JAVASCRIPT,
@@ -150,9 +147,15 @@ export const skills = {
     },
     {
       link: "https://www.typescriptlang.org/",
-      imgAltText: "TypeScript",
-      imgSrc: L_TYPESCRIPT,
-      skillName: "TypeScript",
+      imgAltText: "C2",
+      imgSrc: L_CC,
+      skillName: "C",
+    },
+    {
+      link: "https://www.typescriptlang.org/",
+      imgAltText: "C1",
+      imgSrc: L_C,
+      skillName: "C++",
     },
     {
       link: "https://www.python.org/",
@@ -161,10 +164,10 @@ export const skills = {
       skillName: "Python",
     },
     {
-      link: "https://golang.org/",
+      link: "https://www.r-project.org/",
       imgAltText: "Golang",
-      imgSrc: L_GOLANG,
-      skillName: "Golang",
+      imgSrc: L_R,
+      skillName: "R",
     },
   ],
   databases: [
