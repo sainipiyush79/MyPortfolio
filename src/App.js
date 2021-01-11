@@ -11,6 +11,8 @@ import { Parallax } from "react-parallax";
 import Fade from 'react-reveal/Fade';
 import Skills from "./pages/skills/skills.component";
 import Slide from "react-reveal/Slide";
+import Experience from "./pages/experience/experience.component";
+
 
 
 const App = () => {
@@ -44,6 +46,18 @@ const App = () => {
           <Skills />
         </Slide>
       </Container>
+      <div>
+        <Container className="container-box rounded">
+          <Fade duration={500}>
+            <hr />
+
+            <Experience />
+          </Fade>
+        </Container>
+      </div>
+
+
+
      </div>
   );
 }

@@ -18,11 +18,23 @@
 .font-details {
   font-size: 3em;
   font-weight: 500;
-  color: #e8e7ebf8;
+  color: #f4f6f6f8;
 }
 
 .font-details-b {
   font-size: 3em;
   font-weight: 500;
-  color: #2b46dd;
+  color: #f8f8fa;
+}
+body{
+  margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: "Karla",sans-serif;
+    background-image: linear-gradient(-225deg,#22e1ff,#1d8fe1 48%,#625eb1);
+    height: 100%;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
