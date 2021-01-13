@@ -8,7 +8,7 @@ import L_GetGitHubInfo from "../../assets/img/projects/chatApp.jpg";
 import L_SmartBrain from "../../assets/img/projects/dynamicM.jpg";
 import L_RoboFriends from "../../assets/img/projects/portfolio.jpg";
 import L_ProductHuntClone from "../../assets/img/projects/robot.jpg";
-import L_PortfolioUsingDjango from "../../assets/img/projects/portfolioUsingDjango.webp";
+import L_PortfolioUsingDjango from "../../assets/img/projects/Firework.jpg";
 import Accordion from "react-bootstrap/Accordion";
 import Card from "react-bootstrap/Card";
 
@@ -32,6 +32,9 @@ import L_C from "../../assets/img/skills/c1.svg";
 import L_CC from "../../assets/img/skills/c2.svg";
 import L_JAVASWING from "../../assets/img/skills/Javaswing.jpg";
 import L_EAPI from "../../assets/img/skills/EclipseAPI.jpg";
+import L_PYTHON from "../../assets/img/skills/python.svg";
+import L_MSSQL from "../../assets/img/skills/mssql.svg";
+import L_Linux from "../../assets/img/skills/Linux.jpg";
 
 
 import "./projects-timeline.styles.css"; 
@@ -211,12 +214,7 @@ const TimeLine = () => {
                 >
                   SOURCE CODE
                 </UrlButton>
-                <UrlButton
-                  href="https://www.linkedin.com/posts/anand-kumar-jha-745798a4_react-nodejs-expressjs-activity-6712281977107603456-oH6t"
-                  target="_blank"
-                >
-                  WATCH VIDEO
-                </UrlButton>
+
               </div>
             </div>
           </ImageEvent>
@@ -243,16 +241,11 @@ const TimeLine = () => {
 
                     <Accordion.Collapse eventKey="0" className="text-left">
                       <Card.Body>
-                        <strong>Description:</strong> An app that searches
-                        people on GitHub with non-private account and see all
-                        their details using GitHub API
+                        <strong>Description:</strong> 
+                        • Built a chatting application for users to create their rooms while having unique usernames.
+                       <br /> • Added the feature to share location and send notifications whenever a new user joins or leaves.
                         <hr />
-                        <strong>Features:</strong>
-                        <ul className="list-styles pt-1">
-                          <li>Search any Github profile</li>
-                          <li>Real-time API calls</li>
-                        </ul>
-                        <hr />
+                        
                         <strong>Tech used:</strong>
                         <ul>
                           <li>
@@ -291,12 +284,34 @@ const TimeLine = () => {
                           <li>
                             <span className="p-2">
                               <Image
-                                src={L_GIT}
-                                alt="Github API"
+                                src={L_NODE_JS}
+                                alt="Node.js"
                                 rounded
                                 className="image-style1 m-1"
                               ></Image>{" "}
-                              GitHub API
+                              Node.js
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_EXPRESS}
+                                alt="Express"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              Express
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_MONGODB}
+                                alt="MongoDB"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              MongoDB
                             </span>
                           </li>
                         </ul>
@@ -306,24 +321,14 @@ const TimeLine = () => {
                 </Accordion>
               </div>
               <div className="d-flex justify-content-between flex-nowrap text-center">
+
                 <UrlButton
-                  href="https://akjha96.github.io/getGithubInfo/"
-                  target="_blank"
-                >
-                  SEE LIVE
-                </UrlButton>
-                <UrlButton
-                  href="https://github.com/akjha96/getGithubInfo"
+                  href="https://github.com/sainipiyush79"
                   target="_blank"
                 >
                   SOURCE CODE
                 </UrlButton>
-                <UrlButton
-                  href="https://www.youtube.com/watch?v=K3h95l2YxmY&feature=youtu.be"
-                  target="_blank"
-                >
-                  WATCH VIDEO
-                </UrlButton>
+
               </div>
             </div>
           </ImageEvent>
@@ -350,102 +355,65 @@ const TimeLine = () => {
 
                     <Accordion.Collapse eventKey="0" className="text-left">
                       <Card.Body>
-                        <strong>Description:</strong> An app that detects face
-                        in a picture.
+                        <strong>Description:</strong> 
+                        •	Utilized Linux machine to design and program dynamic storage allocator for C/C++ programs <br/>
+                        •	Implemented efficient malloc, free, and realloc routines for fast and optimized memory allocation
+
                         <hr />
-                        <strong>Features:</strong>
-                        <ul className="list-styles pt-1">
-                          <li>Register new user</li>
-                          <li>Signin exiting user</li>
-                          <li>Keep tracks of entries for each user</li>
-                        </ul>
-                        <hr />
+
                         <strong>Tech used:</strong>
                         <ul>
                           <li>
                             <span className="p-2">
                               <Image
-                                src={L_REACT}
+                                src={L_CC}
                                 alt="React"
                                 rounded
                                 className="image-style1 m-1"
                               ></Image>{" "}
-                              React
+                              C
                             </span>
                           </li>
                           <li>
                             <span className="p-2">
                               <Image
-                                src={L_NODE_JS}
+                                src={L_C}
                                 alt="Node.js"
                                 rounded
                                 className="image-style1 m-1"
                               ></Image>{" "}
-                              Node.js
+                              C++
                             </span>
                           </li>
                           <li>
                             <span className="p-2">
                               <Image
-                                src={L_EXPRESS}
+                                src={L_Linux}
                                 alt="Express"
                                 rounded
                                 className="image-style1 m-1"
                               ></Image>{" "}
-                              Express
+                              Linux
                             </span>
                           </li>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_POSTGRESQL}
-                                alt="PostgreSQL"
-                                rounded
-                                className="image-style1 m-1"
-                              ></Image>{" "}
-                              PostgreSQL
-                            </span>
-                          </li>
+                         
                         </ul>
                         <hr />
-                        <em>
-                          <strong>SignUp/ Signin:</strong>
-                          <br />
-                          <br />
-                          You can <strong>register</strong> as new user or{" "}
-                          <strong>log in</strong> using the demo account below.
-                          <br />
-                          <br />
-                          <strong>Demo Account Details:</strong>
-                          <br />
-                          email: demo@demo.com
-                          <br />
-                          password: demo
-                        </em>
+     
                       </Card.Body>
                     </Accordion.Collapse>
                   </Card>
                 </Accordion>
               </div>
               <div className="d-flex justify-content-between flex-nowrap text-center">
+
                 <UrlButton
-                  href="https://smart-face-detect-app.herokuapp.com/"
-                  target="_blank"
-                >
-                  SEE LIVE
-                </UrlButton>
-                <UrlButton
-                  href="https://github.com/akjha96/Smart_Brain"
+                  href="https://github.com/sainipiyush79/Dynamic-Memory-Allocator-"
                   target="_blank"
                 >
                   SOURCE CODE
                 </UrlButton>
-                <UrlButton
-                  href="https://www.youtube.com/watch?v=ZZYSpi_blL0"
-                  target="_blank"
-                >
-                  WATCH VIDEO
-                </UrlButton>
+
               </div>
             </div>
           </ImageEvent>
@@ -473,16 +441,10 @@ const TimeLine = () => {
 
                     <Accordion.Collapse eventKey="0" className="text-left">
                       <Card.Body>
-                        <strong>Description:</strong> An app that allows to
-                        search through robots fetched in real-time with users.
+                        <strong>Description:</strong> I made this website to showcase my Tech skills, achievements and experiences.
+                         It is made using React.js and will eventually feature more content and will also be connected to a GraphQL backend.
                         <hr />
-                        <strong>Features:</strong>
-                        <ul className="list-styles pt-1">
-                          <li>Search through Robots</li>
-                          <li>Users and Robots being fetched via API call</li>
-                          <li>Usage of Redux store</li>
-                        </ul>
-                        <hr />
+
                         <strong>Tech used:</strong>
                         <ul>
                           <li>
@@ -532,14 +494,29 @@ const TimeLine = () => {
                           <li>
                             <span className="p-2">
                               <Image
-                                src={L_REDUX}
-                                alt="Redux"
+                                src={L_NODE_JS}
+                                alt="Node.js"
                                 rounded
-                                className="image-style m-1"
+                                className="image-style1 m-1"
                               ></Image>{" "}
-                              Redux
+                              Node.js
                             </span>
                           </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_EXPRESS}
+                                alt="Express"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              Express
+                            </span>
+                          </li>
+                       
+
+
+
                         </ul>
                       </Card.Body>
                     </Accordion.Collapse>
@@ -586,76 +563,37 @@ const TimeLine = () => {
 
                     <Accordion.Collapse eventKey="0" className="text-left">
                       <Card.Body>
-                        <strong>Description:</strong> This website is a clone of
-                        Product Hunt built using Django.
+                        <strong>Description:</strong> <br/>
+                        • Used graph algorithms to program a robot that can click images and physically draw prompted text on paper 
+                        <br/>
+                        • Added a real-time file-sharing feature that allows robot to share image information with a computer
                         <hr />
-                        <strong>Features:</strong>
-                        <ul className="list-styles pt-1">
-                          <li>Register as new user</li>
-                          <li>Signin as existing user</li>
-                          <li>Raise a Product for people to see and Vote</li>
-                          <li>Delete a product</li>
-                          <li>Like and Dislike a product</li>
-                          <li>Fully funtional Administration panel</li>
-                        </ul>
-                        <hr />
+                       
                         <strong>Tech used:</strong>
                         <ul>
                           <li>
                             <span className="p-2">
                               <Image
-                                src={L_HTML5}
+                                src={L_PYTHON}
                                 alt="HTML 5"
                                 rounded
                                 className="image-style m-1"
                               ></Image>{" "}
-                              HTML5
+                              Python
                             </span>
                           </li>
                           <li>
                             <span className="p-2">
                               <Image
-                                src={L_CSS3}
-                                alt="CSS 3"
+                                src={L_MSSQL}
+                                alt="L_MSSQL"
                                 rounded
                                 className="image-style m-1"
                               ></Image>{" "}
-                              CSS3
+                              MySQL
                             </span>
                           </li>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_BOOTSTRAP4}
-                                alt="Bootstrap 4"
-                                rounded
-                                className="image-style m-1"
-                              ></Image>{" "}
-                              Bootstrap 4
-                            </span>
-                          </li>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_DJANGO}
-                                alt="Django"
-                                rounded
-                                className="image-style m-1"
-                              ></Image>{" "}
-                              Django
-                            </span>
-                          </li>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_POSTGRESQL}
-                                alt="PostgreSQL"
-                                rounded
-                                className="image-style1 m-1"
-                              ></Image>{" "}
-                              PostgreSQL
-                            </span>
-                          </li>
+                    
                         </ul>
                       </Card.Body>
                     </Accordion.Collapse>
@@ -664,7 +602,7 @@ const TimeLine = () => {
               </div>
               <div className="d-flex justify-content-between flex-nowrap text-center">
                 <UrlButton
-                  href="https://github.com/akjha96/product_hunt_clone"
+                  href="https://github.com/sainipiyush79/Artistic_Robot"
                   target="_blank"
                 >
                   SOURCE CODE
@@ -677,9 +615,9 @@ const TimeLine = () => {
           <ImageEvent
             date="07/12/2019"
             className="text-center"
-            text="Portfolio using Django"
+            text="Fireworks"
             src={L_PortfolioUsingDjango}
-            alt="Portfolio using Django"
+            alt="Fireworks"
           >
             <div className="d-flex justify-content-between flex-column mt-1">
               <div>
@@ -695,110 +633,59 @@ const TimeLine = () => {
 
                     <Accordion.Collapse eventKey="0" className="text-left">
                       <Card.Body>
-                        <strong>Description:</strong> This is my first portfolio
-                        website built using Django.
-                        <hr />
-                        <strong>Features:</strong>
-                        <ul className="list-styles pt-1">
-                          <li>Send emails</li>
-                          <li>View my projects</li>
-                          <li>Write a blog</li>
-                          <li>
-                            Hosted using Digital ocean under www.akjfun.com
-                          </li>
-                          <li>Fully funtional Administration panel</li>
-                        </ul>
+                        <strong>Description:</strong> This is fully customized java project which let user create their fireworks with the choice of colors.
+                      
+               
                         <hr />
                         <strong>Tech used:</strong>
                         <ul>
-                          <li>
+                        <li>
                             <span className="p-2">
                               <Image
-                                src={L_HTML5}
-                                alt="HTML 5"
+                                src={L_JAVA}
+                                alt="L_JAVA"
                                 rounded
                                 className="image-style m-1"
                               ></Image>{" "}
-                              HTML5
+                              JAVA
                             </span>
                           </li>
                           <li>
                             <span className="p-2">
                               <Image
-                                src={L_CSS3}
+                                src={L_JAVASWING}
                                 alt="CSS 3"
                                 rounded
                                 className="image-style m-1"
                               ></Image>{" "}
-                              CSS3
+                              JAVA Swing
                             </span>
                           </li>
                           <li>
                             <span className="p-2">
                               <Image
-                                src={L_BOOTSTRAP4}
-                                alt="Bootstrap 4"
-                                rounded
-                                className="image-style m-1"
-                              ></Image>{" "}
-                              Bootstrap 4
-                            </span>
-                          </li>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_DJANGO}
-                                alt="Django"
-                                rounded
-                                className="image-style m-1"
-                              ></Image>{" "}
-                              Django
-                            </span>
-                          </li>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_POSTGRESQL}
-                                alt="PostgreSQL"
+                                src={L_EAPI}
+                                alt="API"
                                 rounded
                                 className="image-style1 m-1"
                               ></Image>{" "}
-                              PostgreSQL
-                            </span>
-                          </li>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_DIGITAL_OCEAN}
-                                alt="Digital Ocean"
-                                rounded
-                                className="image-style m-1"
-                              ></Image>{" "}
-                              Digital-Ocean
+                              Eclipse API
                             </span>
                           </li>
                         </ul>
-                        <hr />
-                        <em>
-                          <strong>View Demo Video:</strong>
-                          <br />
-                          <br />
-                          If you are reading this, that means I have updated my
-                          Portfolio website to recent one.
-                          <br />
-                          You can still see a video of my old portfolio by
-                          clicking on the button below.
-                          <br />
-                          <br />
-                        </em>
+
+             
                       </Card.Body>
                     </Accordion.Collapse>
                   </Card>
                 </Accordion>
               </div>
               <div className="d-flex justify-content-between flex-nowrap text-center">
-                <UrlButton href="https://youtu.be/PCwEuW4OmWA" target="_blank">
-                  WATCH VIDEO
+              <UrlButton
+                  href="https://github.com/sainipiyush79/Fireworks"
+                  target="_blank"
+                >
+                  SOURCE CODE
                 </UrlButton>
               </div>
             </div>
