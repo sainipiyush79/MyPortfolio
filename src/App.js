@@ -12,6 +12,8 @@ import Fade from 'react-reveal/Fade';
 import Skills from "./pages/skills/skills.component";
 import Slide from "react-reveal/Slide";
 import Experience from "./pages/experience/experience.component";
+import TimeLine from "./componenets/projects-timeline/projects-timeline.component";
+
 
 
 
@@ -46,12 +48,23 @@ const App = () => {
           <Skills />
         </Slide>
       </Container>
+
       <div>
         <Container className="container-box rounded">
           <Fade duration={500}>
             <hr />
 
             <Experience />
+          </Fade>
+        </Container>
+      </div>
+
+      <div>
+        <Container className="container-box rounded">
+          <Fade duration={500}>
+            <hr />
+
+            <TimeLine />
           </Fade>
         </Container>
       </div>
