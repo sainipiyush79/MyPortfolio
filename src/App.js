@@ -13,17 +13,22 @@ import Skills from "./pages/skills/skills.component";
 import Slide from "react-reveal/Slide";
 import Experience from "./pages/experience/experience.component";
 import TimeLine from "./componenets/projects-timeline/projects-timeline.component";
-
-
+import ContactForm from "./pages/contact-form/contact-form.component"
+import FooterPanel from "./componenets/footer/footer.component";
+import Particles from "react-particles-js";
+import { particlesOptions } from "./particlesOptions";
 
 
 const App = () => {
   return (
-    <div>
+    <div  style={{ position: "relative" }}>
       <MyNavbar/>
       <MyCarousal/>
       <MyTitleMessage /> 
-
+      {/* <Particles
+        className="particles particles-box"
+        params={particlesOptions}
+      /> */}
 
       <div>
         <Parallax
@@ -69,6 +74,25 @@ const App = () => {
         </Container>
       </div>
 
+      <div>
+        <Container className="container-box rounded">
+          <Fade duration={500}>
+            <hr />
+
+            <ContactForm />
+          </Fade>
+        </Container>
+      </div>
+
+      <div>
+        <Container className="container-box rounded">
+          <Fade duration={500}>
+            <hr />
+
+            <FooterPanel />
+          </Fade>
+        </Container>
+      </div>
 
 
      </div>

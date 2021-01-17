@@ -22,7 +22,7 @@ const Experience = () => {
                   <Card.Text className="text-center style">
                     <strong className="body-title-style ">Software Engineer | Human Computer Interaction Lab</strong>
                     <br/>
-                    <strong>Company:</strong> University of Rochester
+                    <strong>Employer:</strong> University of Rochester
                     <br/>
                     <strong>Duration:</strong> July 2020 - Present
                     <br/>
@@ -44,7 +44,7 @@ const Experience = () => {
                   <Card.Text className="text-center style">
                     <strong className="body-title-style ">Teaching Assistant | Data Structures and Algorithms  </strong>
                     <br/>
-                    <strong>Company:</strong> University of Rochester
+                    <strong>Employer:</strong> University of Rochester
                     <br/>
                     <strong>Duration:</strong> Jan 2020-May 2020
                     <br/>
@@ -63,7 +63,7 @@ const Experience = () => {
                   <Card.Text className="text-center style">
                     <strong className="body-title-style ">Software Engineering Intern | Network Analyst   </strong>
                     <br/>
-                    <strong>Company:</strong> HCL Technologies
+                    <strong>Employer:</strong> HCL Technologies
                     <br/>
                     <strong>Duration:</strong> Jun 2019 - Aug 2019
                     <br/>
@@ -81,7 +81,7 @@ const Experience = () => {
                   <Card.Text className="text-center style">
                     <strong className="body-title-style ">Information Technology Specialist    </strong>
                     <br/>
-                    <strong>Company:</strong> University of Rochester
+                    <strong>Employer:</strong> University of Rochester
                     <br/>
                     <strong>Duration:</strong> Jan 2020 - Present
                     <br/>

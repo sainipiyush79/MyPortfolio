@@ -21,21 +21,21 @@ const About = () => {
             </Col>
             <Col xs={12} md={6}>
               <Row className=" align-items-start p-2 my-details rounded">
-                Hi there! I am <strong>&nbsp;Piyush Saini</strong>
-                <br />I am a student at the University of Rochester studying Computer Science and Mathematics. I am a Software Developer with React.js, Express.js, Node.js, MongoDB and SQl as my tech stack.
+                Hi there! I am <strong>&nbsp;Piyush Saini.</strong>
+                <br />I am a junior at the University of Rochester studying Computer Science and Mathematics.
                 <br /> I am passionate about software engineering and would like to bring my technical skills and a problem-solving mindset to the tech industry.
                 <br/>
-                I thrive in fast-paced and collaborative environments and have gained professional skills while working as software engineering intern at HCL technologies. 
+                I thrive in fast-paced and collaborative environments and have gained professional skills while working as software engineering intern at HCL technologies and Human-Computer interaction Lab. 
                 <br/>
                 I am curreclty working with HCI department of my university as a software developer and improving my skills as a programmer, a problem solver, and a researcher.
               
-                <br />I love learning about new technologies, what problems are they solving and How can I use them to build better and scalable products.
+                <br />I love learning about new technologies, what problems are they solving and how can I use them to build better and scalable products. Don't forget to check out my Tech Stack and Projects.
                 <br /> <br />
                 <Col className="d-flex justify-content-center flex-wrap">
                   <div>
                     <a href="#contact">
                       <Button className="m-2" variant="outline-primary">
-                        Let's talk
+                        Let's Connect
                       </Button>
                     </a>
                   </div>
