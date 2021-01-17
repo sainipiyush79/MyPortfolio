@@ -36,7 +36,7 @@ const About = () => {
                     <a href="#contact">
                       <Button className="m-2" variant="outline-primary">
                         Let's Connect
-                      </Button>
+                      </Button> 
                     </a>
                   </div>
                   <div>
