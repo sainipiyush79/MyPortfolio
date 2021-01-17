@@ -123,7 +123,7 @@ const TimeLine = () => {
           </ImageEvent>
 
 
-{/* Project: MERN Tip Calculator */}
+
 <ImageEvent
             date="12/20/2020"
             className="text-center"
@@ -216,11 +216,11 @@ const TimeLine = () => {
 
           {/* Project: Get GitHub Info */}
           <ImageEvent
-            date="19/07/2020"
+            date="11/17/2020"
             className="text-center"
-            text="Get GitHub Info"
+            text="CHAT APP"
             src={L_GetGitHubInfo}
-            alt="Get GitHub Info"
+            alt="CHAT APP"
           >
             <div className="d-flex justify-content-between flex-column mt-1">
               <div>
@@ -330,11 +330,11 @@ const TimeLine = () => {
 
           {/* Project: Smart Brain */}
           <ImageEvent
-            date="21/01/2020"
+            date="11/28/2020"
             className="text-center"
-            text="Smart Brain Face Detect app"
+            text="Dynamic Memory Allocator"
             src={L_SmartBrain}
-            alt="Smart Brain Face Detect"
+            alt="Dynamic Memory Allocator"
           >
             <div className="d-flex justify-content-between flex-column mt-1">
               <div>
@@ -416,11 +416,11 @@ const TimeLine = () => {
           {/* Project: RoboFriends */}
 
           <ImageEvent
-            date="14/01/2020"
+            date="1/16/2021"
             className="text-center"
-            text="RoboFriends"
+            text="My-Portfolio"
             src={L_RoboFriends}
-            alt="Robo Friends"
+            alt="My-Portfolio"
           >
             <div className="d-flex justify-content-between flex-column mt-1">
               <div>
@@ -538,11 +538,11 @@ const TimeLine = () => {
           {/* Project: Product_Hunt_Clone */}
 
           <ImageEvent
-            date="15/12/2019"
+            date="4/12/2020"
             className="text-center"
-            text="Product Hunt Clone"
+            text="Artistic Robot"
             src={L_ProductHuntClone}
-            alt="Product Hunt Clone"
+            alt="Artistic Robot"
           >
             <div className="d-flex justify-content-between flex-column mt-1">
               <div>
