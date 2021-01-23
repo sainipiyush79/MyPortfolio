@@ -34,13 +34,7 @@ const ContactForm = () => {
                 </Button>
               </a>
             </div>
-            <div className="m-2">
-              <a href="https://twitter.com/PiyushS82370225" target="_blank" rel="noopener noreferrer">
-                <Button variant="outline-info" title="Tweets are welcomed!">
-                  <i className="fab fa-twitter"></i> Twitter
-                </Button>
-              </a>
-            </div>
+            
 
           </Col>
         </Row>
