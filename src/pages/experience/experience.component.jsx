@@ -12,6 +12,27 @@ const Experience = () => {
       <Jumbotron className="jumbo-style">
         <Container>
           <Tilt options={{ max: 10 }}>
+    
+     <Card>
+              <Card.Header as="h5" className="d-flex justify-content-center flex-wrap">
+              </Card.Header>
+              <Card.Body className="d-flex justify-content-center flex-column">
+              
+                <div>
+                  <Card.Text className="text-center style">
+                    <strong className="body-title-style ">Software Engineering Intern </strong>
+                    <br/>
+                    <strong>Employer:</strong> T-Mobile
+                    <br/>
+                    <strong>Duration:</strong> May 2021 - Present
+                    <br/>
+                    
+                  </Card.Text>
+                </div>
+              </Card.Body>
+            </Card>
+
+   
             <Card>
               <Card.Header as="h5" className="d-flex justify-content-center flex-wrap">
               </Card.Header>
@@ -23,7 +44,7 @@ const Experience = () => {
                     <br/>
                     <strong>Employer:</strong> University of Rochester
                     <br/>
-                    <strong>Duration:</strong> July 2020 - Present
+                    <strong>Duration:</strong> June 2020 - Jan 2020
                     <br/>
                     
                     
